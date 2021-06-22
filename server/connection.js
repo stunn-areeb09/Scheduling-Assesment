@@ -1,4 +1,4 @@
-const mysql = require("mysql");
+const mysql = require("mysql2");
 var mysqlConnection = mysql.createConnection({
     host : "localhost",
     user : "root",
@@ -10,7 +10,6 @@ var mysqlConnection = mysql.createConnection({
 mysqlConnection.connect( (err)=>{
     if(!err)
     {
-
         console.log("Connected Succesfull!!!");
     }
     else

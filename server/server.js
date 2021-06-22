@@ -4,9 +4,6 @@ const bodyParser = require("body-parser");
 const mysqlConnection = require("./connection");
 const TeacherschedulingRoutes = require( "./routes/teacher" );
 const users = [
-    { name : "Areeb" , Age : 22 },
-    { name : "Ammad" , Age : 45 },
-    { name : "Huhu guyz" , Age : 17}
 ];
 
 var app = express();
